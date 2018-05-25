@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+  /*
+  1) tag selector
+   2) class selector
+   3) identifier
+   */
+   body {
+     background-color: #333;
+     color:#FFF;
+     width: 360px;
+   }
+   p {
+     background-color: green;
+     text-align: center;
+     width:100px;
+     height:100px;
+     float: left;
+     margin: 10px;
+   }
+.row {
+    background-color: brown;
+}
+
+.col {
+  border-radius: 50px;
+}
+#first {
+  border-radius: 50px 0px 0px 0px;
+}
+#none {
+  border-radius: 0px 0px 50px 0px;
+}
+
+  </style>
+</head>
+  <body>
+      <p id="first">1</p>
+      <p class="col">2</p>
+      <p>3</p>
+      <p class="row">4</p>
+      <p class="row col">5</p>
+      <p class="row">6</p>
+      <p>7</p>
+      <p class="col">8</p>
+      <p id="none">9</p>
+  </body>
+</html>
