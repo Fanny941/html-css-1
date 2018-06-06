@@ -1,0 +1,41 @@
+body {
+    background-color: gray;
+}
+#profile {
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#profile .about {
+    background-color: #fff;
+    width: 200px;
+    height: 200px;
+}
+
+#profile .about h2 {
+    margin: 0px;
+}
+
+#profile img {
+    transition: 0.5s;
+}
+#profile:hover img {
+    margin-top: -200px;
+}
+#profile:hover {
+    border-color: blue;
+}
+#profile .about a {
+    color:red;
+    background-color: blue;
+    padding: 1px;
+    text-decoration: none;
+    border: 2px solid black;
+}
+#profile .about p {
+    color:green;
+}
